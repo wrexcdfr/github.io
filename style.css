@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #272727;
+}
+
+header{
+    background-color: rgba(50, 50, 50, 0.7);
+    padding: 20px 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:130px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    transition: 2s;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 86px;
+}
+
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.bio__header{
+    color: #DEDEDE;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.bio__text{
+    color: #959595;
+    font-weight: semibold;
+    font-size: 24px;
+}
+
+.bio__button{
+ color: #272727;
+background: rgb(99%, 80%, 12%, 0.5);;
+border-radius: 4px;
+padding: 26px 120px;
+font-weight: semibold;
+font-size: 18px;
+}
+
+/* информация */
+
+.info__img{
+    width: 612px;
+    height: 888px;
+    background-size: cover;
+}
+
+.info__img1{
+    background-image: url(img1.png);
+}
+
+.info__img2{
+    background-image: url(img2.png);
+}
+
+.info__img3{
+    background-image: url(img3.png);
+}
+
+.info__img4{
+    background-image: url(img4.png);
+}
+
+.info__header{
+    color: #DEDEDE;
+    font-weight: semibold;
+}
+
+.info{
+    padding: 80px;
+}
+
+.info__images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 104px;
+}
+
+.info__left, .info__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:46px;
+}
+
+.info__right{
+    margin-top: 104px;
+}
+
+.info__img>p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+/* характеристики */
+
+.charac-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    padding: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    background-image: url(card1.png);
+}
+
+.card3{
+    background-image: url(card3.png);
+}
+
+.card5{
+    background-image: url(card5.png);
+}
+
+.charac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.charac h2{
+    margin-bottom: 40px;
+    font-size: 36px; 
+    font-weight: bold;
+    color: #DEDEDE;
+}
+
+.card2,.card6{
+    background-color: #D9D9D9;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card4{
+    background-color: #0E1114;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* выставка */
+
+.vystavka{
+    padding: 80px;
+}
+
+.vystavka h2{
+    margin-bottom: 40px;
+    font-size: 36px; 
+    font-weight: bold;
+    color: #DEDEDE;
+    text-align: center;
+}
+
+.vystavka-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vystavka-img{
+    background-image: url(vystavka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 844px;
+    height: 542px;
+}
+
+.vystavka-text{
+    background-color: #030303;
+    padding: 45px 70px;
+    color:white;
+    font-size: 36px;
+    font-weight: bold;
+    width: 400px;
+    height: 460px;
+}
+.vystavka-text p{
+    width: 306px;
+}
+
+.blue{
+    color: #00B6F0;
+}
+
+/* анимации */
+.logo:hover{
+    transform: rotate(5turn);
+    transition: 2s;
+}
